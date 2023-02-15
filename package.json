@@ -2,11 +2,18 @@
   "name": "react-structures",
   "version": "1.0.0",
   "description": "set of data structures",
-  "main": "index.js",
+  "main": "./dist/cjs/index.js",
+  "module": "./dist/esm/index.js",
+  "types": "./dist/esm/index.d.ts",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "tsc"
   },
+  "files": [
+    "dist",
+    "LICENSE",
+    "README.md"
+  ],
   "repository": {
     "type": "git",
     "url": "git+https://github.com/MiXeR54/react-structures.git"
@@ -24,6 +31,9 @@
     "url": "https://github.com/MiXeR54/react-structures/issues"
   },
   "homepage": "https://github.com/MiXeR54/react-structures#readme",
+  "peerDependencies": {
+    "react": ">=16"
+  },
   "devDependencies": {
     "@types/react": "^18.0.28",
     "react": "^18.2.0",
