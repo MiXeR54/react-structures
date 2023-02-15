@@ -1,0 +1,33 @@
+{
+  "name": "react-structures",
+  "version": "1.0.0",
+  "description": "set of data structures",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MiXeR54/react-structures.git"
+  },
+  "keywords": [
+    "react",
+    "data",
+    "structures",
+    "algorithms",
+    "hooks"
+  ],
+  "author": "Maxim Chernykh",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MiXeR54/react-structures/issues"
+  },
+  "homepage": "https://github.com/MiXeR54/react-structures#readme",
+  "devDependencies": {
+    "@types/react": "^18.0.28",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "typescript": "^4.9.5"
+  }
+}
